@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miao Chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="header">
+      <img src="https://cdn.discordapp.com/attachments/1278997055209214007/1281241859808825497/images__2_-removebg-preview.png?ex=66db00f7&is=66d9af77&hm=1e80bf9067a165e5e9ecb04e62164c7e900ecb55fdc0194d44f0f4b9228b9fbb&" size="16x16" alt="Miao Chat" class="icon"
+    <span>MIAO CHAT</span>
+  </div>
+
+  <div id="chat">
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" placeholder="Type your message...">
+      <button>Send</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
